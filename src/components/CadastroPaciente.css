@@ -1,0 +1,32 @@
+/* src/components/CadastroPaciente.css */
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto; /* Centralizando o formulário */
+  padding: 20px;
+  border: 1px solid #ddd; /* Borda do formulário */
+  border-radius: 10px; /* Cantos arredondados */
+  background-color: #f9f9f9; /* Cor de fundo do formulário */
+}
+
+.cadastro-form input {
+  margin: 10px 0; /* Margem entre os campos */
+  padding: 10px;
+  border: 1px solid #ccc; /* Borda dos campos */
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+.cadastro-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px; /* Cantos arredondados */
+  background-color: #4caf50; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  cursor: pointer; /* Mão ao passar o mouse */
+  transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.cadastro-form button:hover {
+  background-color: #45a049; /* Efeito hover */
+}

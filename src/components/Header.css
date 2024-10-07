@@ -1,0 +1,34 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #4caf50; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  font-family: 'Arial', sans-serif; /* Fonte */
+}
+
+.logo {
+  font-size: 24px; /* Tamanho da fonte da logo */
+  font-weight: bold; /* Negrito */
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px; /* Espaçamento entre os botões */
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px; /* Cantos arredondados */
+  background-color: #fff; /* Cor de fundo dos botões */
+  color: #4caf50; /* Cor do texto dos botões */
+  cursor: pointer; /* Mão ao passar o mouse */
+  transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.button:hover {
+  background-color: #f1f1f1; /* Efeito hover */
+}
