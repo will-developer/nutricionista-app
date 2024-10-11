@@ -1,34 +1,33 @@
-/* src/components/Header.css */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #4caf50; /* Cor de fundo */
-  color: white; /* Cor do texto */
-  font-family: 'Arial', sans-serif; /* Fonte */
+  background-color: #4caf50;
+  color: white;
+  font-family: 'Arial', sans-serif;
 }
 
 .logo {
-  font-size: 24px; /* Tamanho da fonte da logo */
-  font-weight: bold; /* Negrito */
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .auth-buttons {
   display: flex;
-  gap: 10px; /* Espaçamento entre os botões */
+  gap: 10px;
 }
 
 .button {
   padding: 10px 20px;
   border: none;
-  border-radius: 5px; /* Cantos arredondados */
-  background-color: #fff; /* Cor de fundo dos botões */
-  color: #4caf50; /* Cor do texto dos botões */
-  cursor: pointer; /* Mão ao passar o mouse */
-  transition: background-color 0.3s; /* Efeito de transição */
+  border-radius: 5px;
+  background-color: #fff;
+  color: #4caf50;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .button:hover {
-  background-color: #f1f1f1; /* Efeito hover */
+  background-color: #f1f1f1;
 }

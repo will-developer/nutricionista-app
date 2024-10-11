@@ -1,5 +1,3 @@
-// src/firebase/config.js
-
 const firebaseConfig = {
   apiKey: 'AIzaSyCTWDQ1F_nY9tFc57pmskbtJ4X1EBo7sfw',
   authDomain: 'nutricionista-app-2b5a3.firebaseapp.com',

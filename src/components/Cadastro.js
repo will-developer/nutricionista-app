@@ -1,4 +1,3 @@
-// src/components/Cadastro.js
 import React, { useState } from 'react';
 import { db } from '../firebase/firestore';
 import { collection, addDoc } from 'firebase/firestore';

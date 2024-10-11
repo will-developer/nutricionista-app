@@ -1,15 +1,14 @@
-// src/components/CadastroPaciente.js
 import React, { useState } from 'react';
 import { db } from '../firebase/firestore';
 import { collection, addDoc } from 'firebase/firestore';
-import './CadastroPaciente.css'; // Importando o arquivo CSS para estilização
+import './CadastroPaciente.css';
 
 const CadastroPaciente = () => {
   const [nome, setNome] = useState('');
   const [idade, setIdade] = useState('');
   const [peso, setPeso] = useState('');
   const [altura, setAltura] = useState('');
-  const [dataNascimento, setDataNascimento] = useState(''); // Novo estado para a data de nascimento
+  const [dataNascimento, setDataNascimento] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -20,7 +19,7 @@ const CadastroPaciente = () => {
         peso: Number(peso),
         altura: Number(altura),
         dataCadastro: new Date(),
-        dataNascimento: new Date(dataNascimento), // Adicionando a data de nascimento
+        dataNascimento: new Date(dataNascimento),
         consultas: [],
       });
       alert('Paciente cadastrado com sucesso!');
@@ -33,7 +32,7 @@ const CadastroPaciente = () => {
     <form className="cadastro-form" onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Nome"
+        placeholder="Nome Completo"
         onChange={(e) => setNome(e.target.value)}
         required
       />
@@ -56,7 +55,7 @@ const CadastroPaciente = () => {
         required
       />
       <input
-        type="date" // Campo de data para a data de nascimento
+        type="date"
         placeholder="Data de Nascimento"
         onChange={(e) => setDataNascimento(e.target.value)}
         required
